@@ -4,3 +4,9 @@ https://michalsnik.github.io/aos/
 http://animejs.com/
 
 https://github.com/dmotz/oriDomi
+
+https://github.com/christinecha/choreographer-js
+
+https://hsnaydd.github.io/moveTo/demo/
+
+http://element.eleme.io/#/en-US/component/breadcrumb
