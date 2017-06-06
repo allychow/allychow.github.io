@@ -1,0 +1,9 @@
+h1 {
+  color: #FF5C5C;
+  font-family: headerFont;
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url(ShellaheraScriptDemo.otf);
+}
