@@ -1,4 +1,4 @@
-h3 {
+h1 {
   font-family: TTCoralsThin;
   margin-left: 50px;
   margin-right: 25px;
@@ -15,10 +15,6 @@ h2 {
   font-size: 600%;
   margin-bottom: 40px;
   margin-top: 50px;
-}
-
-img {
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 }
 
 p {
