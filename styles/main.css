@@ -37,11 +37,6 @@ p {
 }
 
 @font-face {
-    font-family: shellahera;
-    src: url(ShellaheraScriptDemo.otf);
-}
-
-@font-face {
     font-family: lemonTuesday;
     src: url(LemonTuesday.otf);
 }
