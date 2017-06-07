@@ -17,6 +17,32 @@ h2 {
   color: #4E4E4E;
 }
 
+h3 {
+  font-family: TTCoralsThin;
+  color: #4E4E4E;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-size: 150%;
+}
+
+.fa {
+  max-width: 150px;
+  max-height: 150px;
+  width: 100px;
+  float: right;
+  padding: 10px;
+}
+
+.btn {
+  color: #F83345;
+}
+
+footer {
+  margin-top: 500px;
+  display: block;
+}
+
 p {
   line-height: 175%;
 }
