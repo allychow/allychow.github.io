@@ -10,3 +10,9 @@ https://github.com/christinecha/choreographer-js
 https://hsnaydd.github.io/moveTo/demo/
 
 http://element.eleme.io/#/en-US/component/breadcrumb
+
+//scrolling animations
+https://codepen.io/mariusbalaj/pen/fxzCG
+
+//submit button animations
+https://codepen.io/auginator/pen/oElzF

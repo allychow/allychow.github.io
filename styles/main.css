@@ -1,19 +1,36 @@
-h1 {
-  color: #DB2939;
-  font-family: shellahera;
-  text-align: center;
-  font-size: 1000%;
-  letter-spacing: 3px;
-  margin-bottom: 50px;
+h3 {
+  font-family: TTCoralsThin;
+  margin-left: 50px;
+  margin-right: 25px;
+  font-size: 250%;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #4E4E4E;
 }
 
 h2 {
-  color: #FFB040;
+  color: #F83345;
   text-align: center;
   font-family: lemonTuesday;
   font-size: 600%;
   margin-bottom: 40px;
   margin-top: 50px;
+}
+
+img {
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+}
+
+p {
+  line-height: 175%;
+}
+
+.about-me {
+  font-family: 'Raleway', sans-serif;
+  font-size: 110%;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
 }
 
 .center {
@@ -31,4 +48,9 @@ h2 {
 @font-face {
     font-family: lemonTuesday;
     src: url(LemonTuesday.otf);
+}
+
+@font-face {
+    font-family: TTCoralsThin;
+    src: url(TTCoralsThin.otf);
 }
