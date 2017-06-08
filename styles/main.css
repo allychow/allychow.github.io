@@ -47,6 +47,16 @@ p {
   line-height: 175%;
 }
 
+.to-do {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 50px;
+  float: left;
+  font-size: 110%;
+}
+
+.to-do-list {
+}
+
 .about-me {
   font-family: 'Raleway', sans-serif;
   font-size: 110%;

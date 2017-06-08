@@ -16,3 +16,13 @@ https://codepen.io/mariusbalaj/pen/fxzCG
 
 //submit button animations
 https://codepen.io/auginator/pen/oElzF
+
+//maps
+https://www.amcharts.com/javascript-maps/
+
+//progress bar
+https://jsfiddle.net/kimmobrunfeldt/k5v2d0rr/
+
+//carousels
+http://meandmax.github.io/lory/
+https://flickity.metafizzy.co/options.html
