@@ -1,4 +1,8 @@
-angular.module('ally', [])
-  .controller('allyController', function() {
-
+$(document).ready(function(){
+  $(".carousel").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false
   });
+});
