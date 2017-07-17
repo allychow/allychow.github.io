@@ -1,0 +1,83 @@
+h1 {
+  color: #F83345;
+  text-align: center;
+  font-family: lemonTuesday;
+  font-size: 600%;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: TTCoralsThin;
+  margin-left: 50px;
+  margin-right: 25px;
+  font-size: 250%;
+  margin-bottom: 0px;
+  letter-spacing: 5px;
+  color: #4E4E4E;
+}
+
+h3 {
+  font-family: TTCoralsThin;
+  color: #4E4E4E;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 25px;
+  font-size: 200%;
+}
+
+.fa {
+  max-width: 150px;
+  max-height: 150px;
+  width: 100px;
+  float: right;
+  padding: 10px;
+}
+
+.btn {
+  color: #F83345;
+}
+
+footer {
+  margin-top: 500px;
+  display: block;
+}
+
+p {
+  line-height: 175%;
+}
+
+.to-do {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 50px;
+  float: left;
+  font-size: 110%;
+}
+
+.to-do-list {
+}
+
+.about-me {
+  font-family: 'Raleway', sans-serif;
+  font-size: 110%;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+}
+
+@font-face {
+    font-family: lemonTuesday;
+    src: url(LemonTuesday.otf);
+}
+
+@font-face {
+    font-family: TTCoralsThin;
+    src: url(TTCoralsThin.otf);
+}
