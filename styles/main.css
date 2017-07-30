@@ -1,5 +1,42 @@
+@media only screen and (max-width: 900px) {
+  #mobile-unnecessary {
+    display: none !important;
+  }
+  img {
+    width: 85vw !important;
+    margin-right: 5% !important;
+    position: relative !important;
+    display: block;
+  }
+  .sub {
+    font-size: 80% !important;
+  }
+
+  h1 {
+    font-size: 300% !important;
+  }
+
+  h2 {
+    font-size: 150% !important;
+
+  }
+
+  .fa {
+    max-height: 50px !important;
+    max-width: 50px !important;
+  }
+
+  p {
+    line-height: 100% !important;
+  }
+
+  .center {
+    font-size: 100% !important;
+  }
+}
+
 h1 {
-  color: #F83345;
+  color: #ffc845;
   text-align: center;
   font-family: lemonTuesday;
   font-size: 600%;
@@ -9,22 +46,21 @@ h1 {
 
 h2 {
   font-family: TTCoralsThin;
-  margin-left: 50px;
-  margin-right: 25px;
-  font-size: 250%;
+  float: left;
+  font-size: 200%;
   margin-bottom: 0px;
   letter-spacing: 5px;
   color: #4E4E4E;
 }
 
-h3 {
+/* h3 {
   font-family: TTCoralsThin;
   color: #4E4E4E;
   float: left;
   margin-left: 15px;
   margin-bottom: 25px;
   font-size: 200%;
-}
+} */
 
 .fa {
   max-width: 150px;
@@ -35,39 +71,34 @@ h3 {
 }
 
 .btn {
-  color: #F83345;
+  color: #ffc845;
 }
 
 footer {
-  margin-top: 500px;
-  display: block;
+  width: 100%;
 }
 
 p {
   line-height: 175%;
 }
 
-.to-do {
-  font-family: 'Raleway', sans-serif;
-  margin-left: 50px;
-  float: left;
-  font-size: 110%;
-}
-
-.to-do-list {
-}
-
 .about-me {
   font-family: 'Raleway', sans-serif;
-  font-size: 110%;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 100%;
   float: left;
+  text-align: left;
 }
 
 .center {
   text-align: center;
-  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 120%;
+}
+
+.sub {
+  text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 120%;
 }
@@ -80,4 +111,25 @@ p {
 @font-face {
     font-family: TTCoralsThin;
     src: url(TTCoralsThin.otf);
+}
+
+img {
+  width: 19.5%;
+  height: auto !important;
+  display: inline-block !important;
+  padding: 0px;
+  margin-bottom: 2%;
+}
+
+.title {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffc845;
+}
+
+.row {
+  max-width: 100%;
+  width: 100% !important;
 }
