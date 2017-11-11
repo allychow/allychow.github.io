@@ -37,7 +37,7 @@
 }
 
 .header {
-  background-image: url('../images/b.jpg');
+  background-image: url('../images/b.JPG');
   background-size: cover;
   height: 800px;
   margin-top: 0;
@@ -59,8 +59,8 @@ h1 {
 h2 {
   font-family: TTCoralsThin;
   float: left;
-  font-size: 200%;
-  margin-bottom: 0px;
+  font-size: 250%;
+  margin-bottom: 1.5%;
   letter-spacing: 5px;
   color: #4E4E4E;
 }
@@ -94,6 +94,7 @@ p {
   font-size: 100%;
   float: left;
   text-align: left;
+  padding-bottom: 5%;
 }
 
 .center {
@@ -236,5 +237,5 @@ a:hover {
 }
 
 .blog-section {
-  padding-bottom: 8%;
+  padding-bottom: 10%;
 }
