@@ -1,53 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-    <link rel="stylesheet" href="./src/App.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+		<link rel="stylesheet" href="./src/App.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+			integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Karla"
+			rel="stylesheet"
+		/>
 
-    <title>Allison Chow</title>
-  </head>
-  <body>
-      <div class="page welcome">
-        <div class="intro">
-          <h1>Allison Chow</h1>
-          <h2>Software Engineer / Program Manager</h2>
-        </div>
-      </div>
-      <div class="page aboutMe">
-        <div class="info">
-          <div class="border">
-            <img src="src/styles/onABike.jpg" width={100} />
-          </div>
-          <div class="infoText">
-            <h3>About Me</h3>
-            <p>Hi! You've reached <strong>Ally</strong>,<strong> 3B computer engineer</strong> at the <strong>University of Waterloo</strong>. I'm currently either out working for <strong>Riot Games 
-              as a Software Engineering Intern</strong>, playing League of Legends almost not terribly, searching for raisin donuts, or blogging on Medium. <br/><br/>If I seem familiar, you might have seen me 
-              working with <strong>UW Blueprint, UW Women in STEM, planning EngHack 2018 or mentoring at Hack the North</strong>, or spilling coffee on myself and others.
-            <br /><br />
-              Please leave a message (at my email) after the tone. <strong>**beep**</strong>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="page links">
-        <div class="linksInfo">
-          <a class="btn" target="_blank" href="http://medium.com/@allychow" title="Medium" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-            <i class="fab fa-medium fa-5x"></i>
-          </a>
-          <a class="btn" target="_blank" href="http://github.com/allychow" title="Github" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-            <i class="fab fa-github-square fa-5x"></i>
-          </a>
-          <a class="btn" target="_blank" href="./src/styles/Resume-Ally-Chow.pdf" title="Resume" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-            <i class="fas fa-file fa-5x"></i>
-          </a>
-          <a class="btn" target="_blank" href="http://linkedin.com/in/allychow" title="LinkedIn" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;">
-            <i class="fab fa-linkedin fa-5x"></i>
-          </a>
-        </div>
-      </div>
-  </body>
+		<title>Allison Chow</title>
+	</head>
+
+	<body>
+		<div class="page">
+			<div class="header">
+				<h2>Allison Chow</h2>
+				<div class="linksInfo">
+					<a
+						class="btn"
+						target="_blank"
+						href="http://medium.com/@allychow"
+						title="Medium"
+						onclick="window.open(this.href); return false;"
+						onkeypress="window.open(this.href); return false;"
+					>
+						<i class="fab fa-medium fa-5x"></i>
+					</a>
+					<a
+						class="btn"
+						target="_blank"
+						href="http://github.com/allychow"
+						title="Github"
+						onclick="window.open(this.href); return false;"
+						onkeypress="window.open(this.href); return false;"
+					>
+						<i class="fab fa-github-square fa-5x"></i>
+					</a>
+					<a
+						class="btn"
+						target="_blank"
+						href="./src/styles/AllisonChowResume.pdf"
+						title="Resume"
+						onclick="window.open(this.href); return false;"
+						onkeypress="window.open(this.href); return false;"
+					>
+						<i class="fas fa-file fa-5x"></i>
+					</a>
+					<a
+						class="btn"
+						target="_blank"
+						href="http://linkedin.com/in/allychow"
+						title="LinkedIn"
+						onclick="window.open(this.href); return false;"
+						onkeypress="window.open(this.href); return false;"
+					>
+						<i class="fab fa-linkedin fa-5x"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<div class="section">
+			<img class="head-image" src="src/assets/onABike.jpg" />
+			<div class="infoText">
+				<h3>About Me</h3>
+				<p>
+					Hi! You've reached <strong>Ally</strong>,<strong>
+						3B computer engineer</strong
+					>
+					at the <strong>University of Waterloo</strong>. I'm
+					currently either out working for
+					<strong
+						><a href="http://uwblueprint.org" target="_blank"
+							>UW Blueprint as the VP of Projects</a
+						></strong
+					>, playing League of Legends almost not terribly, searching
+					for raisin donuts, or blogging on Medium. <br /><br />If I
+					seem familiar, you might have seen me organizing things with
+					<strong
+						><a
+							href="https://www.facebook.com/UWWiSTEM/"
+							target="_blank"
+							>UW Women in STEM</a
+						>
+						and
+						<a href="https://enghack.com/" target="_blank"
+							>EngHack 2018</a
+						>,
+						<a href="http://hackthenorth.com" target="_blank"
+							>mentoring at Hack the North</a
+						></strong
+					>, or spilling coffee on myself and others. <br /><br />
+					Please leave a message (at my email) after the tone.
+					<strong>**beep**</strong>
+
+					Just kidding. Keep scrolling to see where I've been :)
+				</p>
+			</div>
+		</div>
+		<div class="section interlude">
+			<h1>This Past Summer ...</h1>
+		</div>
+		<div class="section">
+			<img class="head-image" src="src/assets/annieAndTibbers.jpg" />
+			<div class="infoText">
+				<h3>Riot Games - Software Engineer Intern</h3>
+				<h4>May-August 2019</h4>
+				<p>
+					I worked on the League of Legends client as a part of the
+					Growth team this past summer. Using
+					<strong
+						>C++, JavaScript, Ember, Stylus and Handlebars</strong
+					>, I helped build components on hubs for Teamfight Tactics
+					and new players. I also worked on a brand new hub, coming
+					out later this fall!
+
+					<br /><br />
+
+					<img class="asset" src="src/assets/newplayerhub.png" />
+
+					<br /><br />
+					The
+					<strong>Teamfight Tactics hub is currently live</strong>,
+					and is the primary out-of-game experience for TFT players to
+					complete missions and get rewards. <br /><br />
+					<img class="asset" src="src/assets/TFThub.png" />
+					<br /><br />
+					The final thing I built was a screen integrated with the new
+					player flow that allowed players coming to the client just
+					for TFT to skip the regular League tutorial paths. This
+					screen has been used by
+					<strong>over 3 million players</strong> to date, fixing a
+					big player pain for new TFT players! <br /><br />
+					<video
+						class="asset"
+						controls="controls"
+						src="src/assets/gameselect.mov"
+					></video>
+				</p>
+			</div>
+		</div>
+		<div class="section interlude">
+			<h1>Before That ...</h1>
+		</div>
+		<div class="section">
+			<img class="head-image" src="src/assets/microsoft2.jpeg" />
+			<div class="infoText">
+				<h3>Microsoft - Software Engineer Intern</h3>
+				<h4>August-December 2018 <br />January-April 2018</h4>
+				<p>
+					I spent my first three co-op terms at Microsoft. For the
+					second and third co-op, I was a software intern on the
+					Flighting team. We built the tooling that allowed beta and
+					A/B testing of operating system and device features, as well
+					as tooling that helped Microsoft's developers test their
+					features faster.
+
+					<br /><br />
+
+					I worked on web dashboards with
+					<strong>C#, Angular 1.x, React, and TypeScript</strong>, I
+					worked a bit in the backend implementing a
+					<strong>Redis cache</strong>, and I also worked on a desktop
+					app with <strong>C#, XAML and C++</strong>.
+
+					<br /><br />
+
+					I wrote more about what I loved about Microsoft's intern
+					experience
+					<a
+						href="https://medium.com/@allychow/things-i-love-about-interning-microsoft-359fef19733f"
+						target="_blank"
+						>here on Medium.</a
+					>
+				</p>
+			</div>
+		</div>
+		<div class="section interlude">
+			<h1>Co-op #1</h1>
+		</div>
+		<div class="section">
+			<img class="head-image" src="src/assets/microsoftinternship.jpeg" />
+			<div class="infoText">
+				<h3>Microsoft - Explore Intern</h3>
+				<h4>May-September 2017</h4>
+				<p>
+					As mentioned before, was at Microsoft - but this first time
+					was as an Explore Intern.
+
+					<br /><br />
+
+					The Explore program is really great because it's meant for
+					people with little to no experience - which was perfect
+					because I had pretty much none! I spent an amazing 16 weeks
+					learning what it meant to be a PM, and learning how to do
+					web development.
+
+					<br /><br />
+
+					My pod and I spec'd out our project, designed the UI, built
+					it with the help of our mentor, and went on to roll out our
+					dashboard to users!
+
+					<br /><br />
+
+					I wrote more about my experience
+					<a
+						href="https://medium.com/@allychow/exploring-microsoft-as-an-explore-intern-b50da9999eb8"
+						target="_blank"
+						>here on Medium.</a
+					>
+				</p>
+			</div>
+		</div>
+	</body>
 </html>

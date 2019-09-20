@@ -1,144 +1,156 @@
+.header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+
 .page {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-
-.welcome {
-  background-color: #FFC6BD;
-}
-
-.aboutMe {
-  background-color: #8D8715;
-}
-
-.links {
-  background-color: black;
-  opacity: 0.8;
-}
-
-.intro {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  height: 70vh;
-  width: 85vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  /* padding: 10% 5%; */
-}
-
-.info {
-  height: 70vh;
-  width: 85vw;
-  display: flex;
-  align-items: center;
-}
-
-.linksInfo {
-  height: 70vh;
-  width: 70vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 h1 {
-  margin: auto;
-  text-align: center;
-  color: white;
-  font-family: Coyote;
-  font-size: 550%;
-  letter-spacing: -10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: Coyote;
+    font-size: 300%;
 }
 
 h2 {
-  text-align: center;
-  color: white;
-  font-family: lemonTuesday;
-  font-size: 200%;
-  letter-spacing: 2px;
+    text-align: center;
+    color: #FF5D5D;
+    font-family: lemonTuesday;
+    font-size: 300%;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 100%;
 }
 
 h3 {
-  text-align: left;
-  color: white;
-  font-family: lemonTuesday;
-  font-size: 175%;
-  margin: 0;
-  letter-spacing: 2px;
+    text-align: left;
+    color: #FF5D5D;
+    font-family: lemonTuesday;
+    font-size: 175%;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+h4 {
+    text-align: left;
+    font-family: 'Karla';
+    color: #4B4B4B;
 }
 
 p {
-  font-family: 'Karla', sans-serif;
-  text-align: left;
-  color: white;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-  font-weight: 100;
-  line-height: 30px;
-  opacity: 0.7;
+    font-family: 'Karla', sans-serif;
+    text-align: left;
+    color: #494949;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 30px;
+    /* opacity: 0.7; */
+}
+
+hr {
+    border: 1px solid #FF9898;
+    opacity: 0.4;
 }
 
 i {
-  color: #FBE5D8;
+    color: #FF9898;
+    opacity: 1;
+    padding: 25px 50px;
 }
 
-a, i {
-  transition: opacity 0.5s ease;
-  opacity: 1;
+a,
+i {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+a,
+a:visited,
+a:hover {
+    color: #FF3D3D;
 }
 
 i:hover {
-  transition: opacity 0.5s ease;
-  opacity: 0.5;
+    transition: opacity 0.5s ease;
+    opacity: 0.5;
 }
 
 strong {
-  font-style: italic;
-  color: black;
-  opacity: 1;
+    font-style: italic;
+    color: #FF5D5D;
+    opacity: 1;
 }
 
-img {
-  height: 60vh;
-  width: auto;
+.head-image {
+    max-height: 300px;
+    height: auto;
+    width: auto;
+    max-width: 30%;
+    margin-top: 2%;
+    border: 2px dashed #FF9898;
+    background-color: white;
+    padding: 50px;
 }
 
 .infoText {
-  height: 80vh;
-  width: 80vw;
-  align-items: center;
-  align-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2% 5%;
+    width: 550px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 5%;
 }
 
-.border {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  padding: 5%;
-  height: 60vh;
+.section {
+    display: flex;
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+
+}
+
+.interlude {
+    width: 100%;
+    margin: 0;
+    background-color: #FF9898;
+    height: 200px;
+}
+
+.asset {
+    height: auto;
+    width: 100%;
 }
 
 @font-face {
-  font-family: Coyote;
-  src: url(styles/Coyote-SemiBoldDEMO.otf);
+    font-family: Coyote;
+    src: url(styles/Coyote-SemiBoldDEMO.otf);
 }
 
 @font-face {
