@@ -8,6 +8,9 @@
     flex: 1 1 auto;
 }
 
+a {
+    text-decoration: none;
+}
 
 .page {
     height: 100%;
